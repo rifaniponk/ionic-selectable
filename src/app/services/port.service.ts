@@ -328,7 +328,7 @@ export class PortService {
 
     return new Observable<any>(observer => {
       self.addPort(port);
-      observer.next();
+      observer.next(port);
       observer.complete();
     }).pipe(delay(timeout));
   }
@@ -350,7 +350,7 @@ export class PortService {
 
     return new Observable<any>(observer => {
       self.deletePort(port);
-      observer.next();
+      observer.next(port);
       observer.complete();
     }).pipe(delay(timeout));
   }
