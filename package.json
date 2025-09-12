@@ -1,8 +1,8 @@
 {
-  "version": "5.0.3",
-  "name": "ionic-selectable",
+  "version": "6.0.0",
+  "name": "@rifaniponk/ionic-selectable",
   "title": "Ionic Selectable",
-  "description": "An Ionic component similar to Ionic Select, that allows to search items, including async search, group, add, edit, delete items, and much more.",
+  "description": "An Ionic component similar to Ionic Select, that allows to search items, including async search, group, add, edit, delete items, and much more. Supports Angular 16-20 and Ionic 7-8.",
   "author": {
     "name": "Evgenii Koriakin",
     "url": "https://github.com/eakoriakin"
