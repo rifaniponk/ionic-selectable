@@ -4,5 +4,8 @@
     "entryFile": "index.ts"
   },
   "allowedNonPeerDependencies": ["cordova-ios", "cordova-android"],
-  "dest": "dist"
+  "dest": "dist",
+  "assets": [
+    "images/**/*"
+  ]
 }

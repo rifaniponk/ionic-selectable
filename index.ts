@@ -1,3 +1,4 @@
+export * from './src/app/components/ionic-selectable/ionic-selectable.module';
 export * from './src/app/components/ionic-selectable/ionic-selectable.component';
 export * from './src/app/components/ionic-selectable/ionic-selectable-add-item-template.directive';
 export * from './src/app/components/ionic-selectable/ionic-selectable-close-button-template.directive';
